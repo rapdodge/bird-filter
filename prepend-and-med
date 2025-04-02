@@ -1,0 +1,411 @@
+if ( (LOCALASN,NEIGHBORASN,1) ~ bgp_large_community ) then { 
+	bgp_path.prepend(LOCALASN);
+}
+if ( (LOCALASN,NEIGHBORASN,2) ~ bgp_large_community ) then { 
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+}
+if ( (LOCALASN,NEIGHBORASN,3) ~ bgp_large_community ) then { 
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+}
+if ( (LOCALASN,NEIGHBORASN,4) ~ bgp_large_community ) then { 
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+}
+if ( (LOCALASN,NEIGHBORASN,5) ~ bgp_large_community ) then { 
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+}
+if ( (LOCALASN,NEIGHBORASN,6) ~ bgp_large_community ) then { 
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+}
+if ( (LOCALASN,NEIGHBORASN,7) ~ bgp_large_community ) then { 
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+}
+if ( (LOCALASN,NEIGHBORASN,8) ~ bgp_large_community ) then { 
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+}
+if ( (LOCALASN,NEIGHBORASN,9) ~ bgp_large_community ) then { 
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+}
+if ( (LOCALASN,NEIGHBORASN,10) ~ bgp_large_community ) then { 
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+}
+if ( (LOCALASN,NEIGHBORASN,11) ~ bgp_large_community ) then { 
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+}
+if ( (LOCALASN,NEIGHBORASN,12) ~ bgp_large_community ) then { 
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+}
+if ( (LOCALASN,NEIGHBORASN,13) ~ bgp_large_community ) then { 
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+}
+if ( (LOCALASN,NEIGHBORASN,14) ~ bgp_large_community ) then { 
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+}
+if ( (LOCALASN,NEIGHBORASN,15) ~ bgp_large_community ) then { 
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+}
+if ( (LOCALASN,NEIGHBORASN,16) ~ bgp_large_community ) then { 
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+}
+if ( (LOCALASN,NEIGHBORASN,17) ~ bgp_large_community ) then { 
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+}
+if ( (LOCALASN,NEIGHBORASN,18) ~ bgp_large_community ) then { 
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+}
+if ( (LOCALASN,NEIGHBORASN,19) ~ bgp_large_community ) then { 
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+}
+if ( (LOCALASN,NEIGHBORASN,20) ~ bgp_large_community ) then { 
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+}
+if ( (LOCALASN,NEIGHBORASN,21) ~ bgp_large_community ) then { 
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+}
+if ( (LOCALASN,NEIGHBORASN,22) ~ bgp_large_community ) then { 
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+}
+if ( (LOCALASN,NEIGHBORASN,23) ~ bgp_large_community ) then { 
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+}
+if ( (LOCALASN,NEIGHBORASN,24) ~ bgp_large_community ) then { 
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+}
+if ( (LOCALASN,NEIGHBORASN,25) ~ bgp_large_community ) then { 
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+	bgp_path.prepend(LOCALASN);
+}
+if ( (LOCALASN,NEIGHBORASN,666) ~ bgp_large_community ) then { 
+	reject;
+}
+if ( (LOCALASN,NEIGHBORASN,1000) ~ bgp_large_community ) then { 
+	bgp_med = 0;
+}
+if ( (LOCALASN,NEIGHBORASN,1001) ~ bgp_large_community ) then { 
+	bgp_med = 1;
+}
+if ( (LOCALASN,NEIGHBORASN,1002) ~ bgp_large_community ) then { 
+	bgp_med = 2;
+}
+if ( (LOCALASN,NEIGHBORASN,1003) ~ bgp_large_community ) then { 
+	bgp_med = 3;
+}
+if ( (LOCALASN,NEIGHBORASN,1004) ~ bgp_large_community ) then { 
+	bgp_med = 4;
+}
+if ( (LOCALASN,NEIGHBORASN,1005) ~ bgp_large_community ) then { 
+	bgp_med = 5;
+}
+if ( (LOCALASN,NEIGHBORASN,1006) ~ bgp_large_community ) then { 
+	bgp_med = 6;
+}
+if ( (LOCALASN,NEIGHBORASN,1007) ~ bgp_large_community ) then { 
+	bgp_med = 7;
+}
+if ( (LOCALASN,NEIGHBORASN,1008) ~ bgp_large_community ) then { 
+	bgp_med = 8;
+}
+if ( (LOCALASN,NEIGHBORASN,1009) ~ bgp_large_community ) then { 
+	bgp_med = 9;
+}
+if ( (LOCALASN,NEIGHBORASN,1010) ~ bgp_large_community ) then { 
+	bgp_med = 10;
+}
