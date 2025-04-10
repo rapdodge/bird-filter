@@ -376,36 +376,36 @@ if ( (LOCALASN,NEIGHBORASN,25) ~ bgp_large_community ) then {
 if ( (LOCALASN,NEIGHBORASN,666) ~ bgp_large_community ) then { 
 	reject;
 }
-if ( (LOCALASN,NEIGHBORASN,1000) ~ bgp_large_community ) then { 
+if ( (LOCALASN,NEIGHBORASN,100) ~ bgp_large_community ) then { 
 	bgp_med = 0;
 }
-if ( (LOCALASN,NEIGHBORASN,1001) ~ bgp_large_community ) then { 
+if ( (LOCALASN,NEIGHBORASN,101) ~ bgp_large_community ) then { 
 	bgp_med = 1;
 }
-if ( (LOCALASN,NEIGHBORASN,1002) ~ bgp_large_community ) then { 
+if ( (LOCALASN,NEIGHBORASN,102) ~ bgp_large_community ) then { 
 	bgp_med = 2;
 }
-if ( (LOCALASN,NEIGHBORASN,1003) ~ bgp_large_community ) then { 
+if ( (LOCALASN,NEIGHBORASN,103) ~ bgp_large_community ) then { 
 	bgp_med = 3;
 }
-if ( (LOCALASN,NEIGHBORASN,1004) ~ bgp_large_community ) then { 
+if ( (LOCALASN,NEIGHBORASN,104) ~ bgp_large_community ) then { 
 	bgp_med = 4;
 }
-if ( (LOCALASN,NEIGHBORASN,1005) ~ bgp_large_community ) then { 
+if ( (LOCALASN,NEIGHBORASN,105) ~ bgp_large_community ) then { 
 	bgp_med = 5;
 }
-if ( (LOCALASN,NEIGHBORASN,1006) ~ bgp_large_community ) then { 
+if ( (LOCALASN,NEIGHBORASN,106) ~ bgp_large_community ) then { 
 	bgp_med = 6;
 }
-if ( (LOCALASN,NEIGHBORASN,1007) ~ bgp_large_community ) then { 
+if ( (LOCALASN,NEIGHBORASN,107) ~ bgp_large_community ) then { 
 	bgp_med = 7;
 }
-if ( (LOCALASN,NEIGHBORASN,1008) ~ bgp_large_community ) then { 
+if ( (LOCALASN,NEIGHBORASN,108) ~ bgp_large_community ) then { 
 	bgp_med = 8;
 }
-if ( (LOCALASN,NEIGHBORASN,1009) ~ bgp_large_community ) then { 
+if ( (LOCALASN,NEIGHBORASN,109) ~ bgp_large_community ) then { 
 	bgp_med = 9;
 }
-if ( (LOCALASN,NEIGHBORASN,1010) ~ bgp_large_community ) then { 
+if ( (LOCALASN,NEIGHBORASN,110) ~ bgp_large_community ) then { 
 	bgp_med = 10;
 }
