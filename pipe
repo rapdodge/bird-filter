@@ -1,0 +1,27 @@
+define EXPORT_COMMUNITY = (LOCALASN,TAGCOMMUNITY,NEIGHBORASN);
+
+ipv4 table TABLENAME;
+
+protocol pipe pipe_name {
+        table master4;
+        peer table TABLENAME;
+        import all;
+        export filter {
+                if EXPORT_COMMUNITY ~ bgp_large_community then {
+                        accept;
+                }
+                reject;
+        };
+}
+
+...
+
+protocol bgp protocol_name {
+  local xxx.xxx.xxx.xxx as ASN port 179;
+  neighbor xxx.xxx.xxx.xxx as ASN port 179;
+
+  ipv4 {
+    table TABLENAME;
+    ...
+}
+...
